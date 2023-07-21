@@ -18,6 +18,9 @@ class UsersController{
 
         return response.status(201).json(`Usuário Cadastrado!`)
     }
+    async index(request, response){
+        return response.status(200).json('conectado')
+    }
 }
 
 
