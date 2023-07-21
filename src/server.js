@@ -7,7 +7,7 @@ const routes = require("./routes");
 const app = express()
 app.use(express.json());
 
-database()
+database();
 
 app.use(routes);
 
