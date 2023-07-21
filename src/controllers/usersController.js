@@ -8,7 +8,7 @@ class UsersController{
             throw new AppError("O nome é obrigatório!", 401);
         }
 
-        response.json({name, email, password});
+        response.status(201).json({name, email, password});
     }
 }
 
